@@ -40,6 +40,7 @@ public class SetmealDishController {
 
     /**
      * 套餐分页查询
+     * setmeal page query
      * @param page
      * @param pageSize
      * @param name
@@ -63,6 +64,7 @@ public class SetmealDishController {
 
                     BeanUtils.copyProperties(item, setmealDto);
                     //查询分类id
+                    //query category id
                     Long categoryId = item.getCategoryId();
 
                     Category category = categoryService.getById(categoryId);

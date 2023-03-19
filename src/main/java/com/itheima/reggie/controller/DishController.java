@@ -44,18 +44,24 @@ public class DishController {
     @GetMapping("/page")
     public R<Page> page(int page,int pageSize, String name){
         //构造分页构造器对象
+        //create page object
         Page<Dish> pageInfo = new Page<>(page, pageSize);
         Page<DishDto> dishDtoPage = new Page<>();
         //条件构造器
+        //create query wrapper
         LambdaQueryWrapper<Dish> wrapper = new LambdaQueryWrapper<>();
         //添加过滤条件
+        //add filter
         wrapper.like(name !=null, Dish::getName, name);
         //添加排序条件
+        //add sort
         wrapper.orderByDesc(Dish::getUpdateTime);
         //执行分页查询
+        //execute page query
         dishService.page(pageInfo, wrapper);
 
         //对象拷贝
+        //copy object
         BeanUtils.copyProperties(pageInfo,dishDtoPage,"records");
 
         List<Dish> records = pageInfo.getRecords();
@@ -67,6 +73,7 @@ public class DishController {
 
             Long categoryId = item.getCategoryId();
             //根据分类id查询分类名称
+            //query category name by category id
             Category category = categoryService.getById(categoryId);
 
             if (category != null){

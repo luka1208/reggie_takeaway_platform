@@ -38,7 +38,7 @@ You can edit member's info here
 <img width="1122" alt="image" src="https://user-images.githubusercontent.com/115228154/226218616-c5eb0e1e-ad6d-4490-bcf9-e6c32602d1af.png">
 You can change categories name and  the order if you want and you can click the red one to delete this record
 
-Here you can add a new meal and a new meal
+Here you can add a new dish and a new meal
 ![image](https://user-images.githubusercontent.com/115228154/226219015-2992a6cd-d462-4cf5-a183-d15efd3ad593.png)
 <img width="1027" alt="image" src="https://user-images.githubusercontent.com/115228154/226218980-dfe46ef6-f937-4ddd-a377-20998a297bf5.png">
 <img width="1162" alt="image" src="https://user-images.githubusercontent.com/115228154/226219034-85d97446-9851-4b56-bf8a-56db70061fea.png">

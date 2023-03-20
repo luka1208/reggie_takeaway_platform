@@ -31,6 +31,7 @@ Then it turns to
 
 When it turns to categories:
 There only have two categories: dish and meal 
+
 You can edit member's info here
 ![image](https://user-images.githubusercontent.com/115228154/226218706-885ff7d3-ccfd-4ded-a759-5124c49e87cf.png)
 

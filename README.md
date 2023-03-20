@@ -28,10 +28,10 @@ Then it turns to
 ![image](https://user-images.githubusercontent.com/115228154/226217608-a94b4380-f686-46c9-a51a-3be2ae92bb93.png)
 Then it turns to
 <img width="1417" alt="image" src="https://user-images.githubusercontent.com/115228154/226217634-c8fe17c3-0783-458e-8d9b-30880b2224d6.png">
-You can edit member's info here
 
 When it turns to categories:
 There only have two categories: dish and meal 
+You can edit member's info here
 ![image](https://user-images.githubusercontent.com/115228154/226218706-885ff7d3-ccfd-4ded-a759-5124c49e87cf.png)
 
 <img width="1122" alt="image" src="https://user-images.githubusercontent.com/115228154/226218616-c5eb0e1e-ad6d-4490-bcf9-e6c32602d1af.png">
